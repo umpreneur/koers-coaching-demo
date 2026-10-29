@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Placeholder voor portretfoto">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#EDE5DB"/><stop offset="1" stop-color="#F1E8DA"/></linearGradient></defs>
+<rect width="800" height="1000" fill="url(#g)"/>
+<circle cx="640" cy="180" r="220" fill="#E3D4BD" opacity=".35"/>
+<circle cx="120" cy="860" r="180" fill="#fff" opacity=".25"/>
+<path d="M120 1000c20-190 140-300 280-300s260 110 280 300z" fill="#B9A28A"/>
+<circle cx="400" cy="470" r="150" fill="#B9A28A"/>
+<path d="M262 430c10-110 90-160 160-150 90 12 140 90 126 170-40-60-120-80-190-60-40 12-70 30-96 40z" fill="#000" opacity=".12"/>
+<g font-family="system-ui,sans-serif" text-anchor="middle"><rect x="230" y="910" width="340" height="46" rx="23" fill="#fff" opacity=".7"/><text x="400" y="940" font-size="20" fill="#5F5850">Vervang door je portretfoto · 4:5</text></g>
+</svg>

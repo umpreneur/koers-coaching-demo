@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Placeholder voor foto">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#EDE5DB"/><stop offset="1" stop-color="#F1E8DA"/></linearGradient></defs>
+<rect width="1200" height="900" fill="url(#g)"/>
+<rect x="260" y="230" width="460" height="420" rx="16" fill="#fff" opacity=".85" transform="rotate(-6 490 440)"/><path d="M330 330h300M330 390h260M330 450h280M330 510h200" stroke="#E3D4BD" stroke-width="14" stroke-linecap="round" transform="rotate(-6 490 440)"/><circle cx="860" cy="520" r="110" fill="#B9A68A"/><circle cx="860" cy="520" r="78" fill="#8B6F4E"/><path d="M965 500q60 0 60 40t-60 40" stroke="#B9A68A" stroke-width="22" fill="none"/><path d="M180 700c60-120 80-240 40-340 70 80 90 210 30 340z" fill="#A88E76"/>
+<g font-family="system-ui,sans-serif" text-anchor="middle"><rect x="410" y="810" width="380" height="50" rx="25" fill="#fff" opacity=".7"/><text x="600" y="842" font-size="22" fill="#5F5850">Vervang door een foto · 4:3</text></g>
+</svg>

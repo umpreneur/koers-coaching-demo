@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Placeholder voor foto">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F1E8DA"/><stop offset="1" stop-color="#E3D4BD"/></linearGradient></defs>
+<rect width="1200" height="900" fill="url(#g)"/>
+<rect x="0" y="600" width="1200" height="300" fill="#D9C8AE"/><rect x="760" y="140" width="300" height="380" rx="12" fill="#fff" opacity=".55"/><path d="M910 140v380M760 330h300" stroke="#E3D4BD" stroke-width="10"/><path d="M220 640v-200q0-70 70-70h120q70 0 70 70v200z" fill="#CBB8A3"/><rect x="200" y="600" width="300" height="70" rx="24" fill="#A88E76"/><path d="M640 640v-180q0-60 60-60h100q60 0 60 60v180z" fill="#C9B391"/><rect x="620" y="600" width="260" height="64" rx="22" fill="#B9A68A"/><circle cx="560" cy="560" r="44" fill="#fff" opacity=".7"/><path d="M1060 600c0-120-30-200-80-240 10 90 0 160-20 240z" fill="#A88E76"/>
+<g font-family="system-ui,sans-serif" text-anchor="middle"><rect x="410" y="810" width="380" height="50" rx="25" fill="#fff" opacity=".7"/><text x="600" y="842" font-size="22" fill="#5F5850">Vervang door een sfeerfoto · 4:3</text></g>
+</svg>
