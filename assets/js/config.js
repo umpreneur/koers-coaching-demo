@@ -212,7 +212,9 @@ window.SITE_CONFIG = {
   /* ---------- Navigatie ---------- */
   // Houd het menu kort. De knop "Plan kennismaking" staat er altijd rechts naast.
   nav: [
-    { key: "subject", label: "Het onderwerp", href: "onderwerp.html" },
+    // "Thema’s" kun je vervangen door een menunaam die past bij jouw coachingonderwerp.
+    { key: "subject", label: "Thema’s", href: "onderwerp.html" },
+    { key: "coaching", label: "Coaching", href: "coaching.html" },
     { key: "blog", label: "Blog", href: "blog.html", section: "blog" },
     { key: "about", label: "Over mij", href: "over-mij.html" },
     { key: "contact", label: "Contact", href: "contact.html" }
