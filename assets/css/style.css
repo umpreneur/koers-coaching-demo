@@ -102,7 +102,7 @@ main:focus { outline: none; }
   font-size: .8125rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase;
   color: var(--c-green-ink); margin: 0 0 1rem;
 }
-.eyebrow::before { content: ""; width: 28px; height: 1.5px; background: currentColor; opacity: .6; }
+.eyebrow::before { content: none; }
 .lead { font-size: clamp(1.125rem, 1.6vw, 1.25rem); color: var(--c-muted); max-width: 38em; }
 .muted { color: var(--c-muted); }
 
