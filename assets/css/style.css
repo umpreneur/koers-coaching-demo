@@ -905,3 +905,6 @@ h3 { font-size: clamp(1.45rem, 2.2vw, 1.75rem); font-weight: 500; }
 :root { --c-cta: #9C5236; --c-cta-hover: #84432B; }
 a.btn[href^="afspraak.html"] { background: var(--c-cta); border-color: var(--c-cta); color: #fff; }
 a.btn[href^="afspraak.html"]:hover { background: var(--c-cta-hover); border-color: var(--c-cta-hover); color: #fff; }
+
+/* Duidelijke melding op alle pagina’s van de demo. */
+.demo-notice { padding: 12px 20px; background: var(--c-demo-bg); color: var(--c-text); text-align: center; font-size: .9rem; line-height: 1.5; }
