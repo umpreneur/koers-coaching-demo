@@ -310,7 +310,7 @@ window.SITE_CONFIG = {
         "Soms helpt het om hardop te denken met iemand die meekijkt zonder oordeel. In coachgesprekken onderzoeken we wat er voor jou speelt, wat je belangrijk vindt en welke stap daarbij past.",
         "Dat kan in losse gesprekken of in een traject, in de praktijk of online. Je bepaalt zelf het tempo."
       ],
-      linkLabel: "Zo werk ik",
+      linkLabel: "Bekijk mijn aanbod",
       linkHref: "coaching.html"
     },
     invite: {
