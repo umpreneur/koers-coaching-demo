@@ -235,7 +235,7 @@
     const year = new Date().getFullYear();
     const nav = navItems().map((n) => `<li><a href="${esc(n.href)}">${esc(n.label)}</a></li>`).join("")
       + `<li><a href="afspraak.html">Afspraak maken</a></li>`;
-    const topicLinks = (C.topics || []).map((t) => `<li><a href="${esc(t.page || "onderwerp.html")}">${esc(t.title)}</a></li>`).join("");
+    const topicLinks = (C.topics || []).filter((t) => t.page).map((t) => `<li><a href="${esc(t.page)}">${esc(t.title)}</a></li>`).join("");
     const socials = (c.socials || []).map((s) =>
       `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)}<span class="sr-only"> (opent in nieuw venster)</span></a></li>`).join("");
     slot.outerHTML = `
