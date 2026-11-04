@@ -184,7 +184,6 @@
           <nav class="site-nav" id="site-nav" aria-label="Hoofdmenu">
             <ul>
               ${links}
-              <li class="nav-cta">${btn(bookingHref(C.booking.defaultType), C.booking.headerLabel || C.booking.ctaLabel, "secondary", { cls: "btn--small" })}</li>
             </ul>
           </nav>
           <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
