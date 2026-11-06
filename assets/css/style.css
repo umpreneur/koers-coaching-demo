@@ -908,3 +908,4 @@ a.btn[href^="afspraak.html"]:hover { background: var(--c-cta-hover); border-colo
 
 /* Duidelijke melding op alle pagina’s van de demo. */
 .demo-notice { padding: 12px 20px; background: var(--c-demo-bg); color: var(--c-text); text-align: center; font-size: .9rem; line-height: 1.5; }
+.demo-notice a { font-weight: 700; white-space: nowrap; }
