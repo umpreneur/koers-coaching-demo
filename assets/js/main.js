@@ -176,7 +176,7 @@
       `<li><a href="${esc(n.href)}"${n.key === active ? ' aria-current="page"' : ""}>${esc(n.label)}</a></li>`).join("");
     const an = C.announcement;
     slot.outerHTML = `
-      <div class="demo-notice" role="note"><strong>Demowebsite</strong> — Koers Coaching is een fictieve praktijk. De personen, verhalen en overige inhoud zijn voorbeelden. <a href="https://umpreneur.github.io/onlinedesk/pakket.html?id=coaching">Bekijk pakketten en prijzen →</a></div>
+      <div class="demo-notice" role="note"><strong>Demowebsite</strong> — Koers Coaching is een fictieve praktijk. De personen, verhalen en overige inhoud zijn voorbeelden. <a href="https://umpreneur.github.io/onlinedesk/">Terug naar OnlineDesk</a> · <a href="https://umpreneur.github.io/onlinedesk/pakket.html?id=coaching">Bekijk pakketten en prijzen →</a></div>
       ${an && an.text ? `<div class="announce"><a href="${esc(an.href || "afspraak.html")}">${esc(an.text)} <span aria-hidden="true">→</span></a></div>` : ""}
       <header class="site-header" id="top">
         <div class="container header-inner">
