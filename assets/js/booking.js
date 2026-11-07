@@ -80,9 +80,9 @@
   const pad = (n) => String(n).padStart(2, "0");
   const iso = (d) => `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
   const fromIso = (s) => { const [y, m, d] = s.split("-").map(Number); return new Date(y, m - 1, d); };
-  const fmtLong = (s) => new Intl.DateTimeFormat("nl-NL", { weekday: "long", day: "numeric", month: "long", year: "numeric" }).format(fromIso(s));
-  const fmtDayLong = (s) => new Intl.DateTimeFormat("nl-NL", { weekday: "long", day: "numeric", month: "long" }).format(fromIso(s));
-  const fmtMonth = (d) => new Intl.DateTimeFormat("nl-NL", { month: "long", year: "numeric" }).format(d);
+  const fmtLong = (s) => new Intl.DateTimeFormat(document.documentElement.lang === "en" ? "en-GB" : "nl-NL", { weekday: "long", day: "numeric", month: "long", year: "numeric" }).format(fromIso(s));
+  const fmtDayLong = (s) => new Intl.DateTimeFormat(document.documentElement.lang === "en" ? "en-GB" : "nl-NL", { weekday: "long", day: "numeric", month: "long" }).format(fromIso(s));
+  const fmtMonth = (d) => new Intl.DateTimeFormat(document.documentElement.lang === "en" ? "en-GB" : "nl-NL", { month: "long", year: "numeric" }).format(d);
   const hash = (s) => { let h = 0; for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) | 0; return Math.abs(h); };
 
   const demoCfg = B.demo || {};

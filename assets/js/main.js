@@ -153,7 +153,7 @@
   }
   const fmtDate = (s) => {
     const [y, m, d] = String(s).split("-").map(Number);
-    return y ? new Intl.DateTimeFormat("nl-NL", { day: "numeric", month: "long", year: "numeric" }).format(new Date(y, m - 1, d)) : "";
+    return y ? new Intl.DateTimeFormat(document.documentElement.lang === "en" ? "en-GB" : "nl-NL", { day: "numeric", month: "long", year: "numeric" }).format(new Date(y, m - 1, d)) : "";
   };
   const navItems = () => (C.nav || []).filter((n) => !n.section || on(n.section));
 
